@@ -1,0 +1,35 @@
+.banner{
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto{
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.banner__pesquisa{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.banner__pesquisa::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color:white;
+    background: url("../img/Pesquisa.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+}
