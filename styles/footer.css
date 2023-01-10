@@ -1,0 +1,52 @@
+footer{
+    padding: 1em 0;
+    background: white;
+}
+
+.footer__banner{
+    padding: 1em;
+}
+
+.footer__botoes{
+    padding: 1em 0;
+}
+
+.footer__botao{
+    padding: .5em;
+    margin: 1em 0;
+}
+
+.footer__novidades{
+    padding: 1em;
+}
+
+.footer__titulo{
+    color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer__texto{
+    margin: 1em 0;
+}
+
+.footer__pesquisa{
+    border: 1px solid #002F52;
+    color: #002F52;
+}
+
+.footer__pesquisa::placeholder{
+    color:#002F52;
+    background: url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+}
+
+hr{
+    margin: 1em 0;
+}
+
+.footer__link{
+    color: black;
+    text-decoration: none;
+}
